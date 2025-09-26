@@ -30,6 +30,53 @@ With yolo we can detect real time objects at a relatively high speed. With a GPU
 
 OpenCV dnn module supports running inference on pre-trained deep learning models from popular frameworks like Caffe, Torch and TensorFlow.
 
+
+
+# YOLO Real-Time Object Detection
+
+This project implements **real-time object detection** via video, webcam, and image detection using the **YOLO (You Only Look Once)** algorithm. Implemented in Python using pre-trained weights. Real-time detection can be run via **Command Prompt** or **GUI**.
+
+---
+
+## Features
+- Real-time object detection on images, videos, and webcam feed.
+- High-speed detection using YOLO algorithm.
+- Supports GPU and CPU inference (GPU: ~45 FPS, CPU: ~1 FPS).
+
+---
+
+## Demo
+
+### Real-Time Road Detection
+![Real-Time Road Detection-1](images/detector1.gif)  
+![Real-Time Road Detection-2](images/detector2.gif)  
+
+### Webcam Detection
+![Real-Time Webcam Detection](images/webcam.gif)
+
+---
+
+## About YOLO
+YOLO is a deep learning object detection algorithm introduced in **May 2016**. It became popular due to its **high speed** compared with previous detection algorithms. YOLO detects objects in real-time with high accuracy.
+
+OpenCV `dnn` module is used to run inference on pre-trained models from popular frameworks like Caffe, Torch, and TensorFlow.
+
+---
+
+## Requirements
+- Python 3.6+
+- OpenCV 4.2.0
+- gradio
+- NumPy (optional)
+- Other dependencies listed in `requirements.txt`
+
+---
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/NAGARAJU4582/YOLO-RealTime-Object-Detection.git
+
 ## Requirement
 <ul>
 <li>gradio</li>	
